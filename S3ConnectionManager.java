@@ -18,8 +18,7 @@ public class S3ConnectionManager {
 
     private AmazonS3 amazonS3;
 
-    private final static String bucketName = "yuxuxu";
-	private final static String filePath   = "C:\\Users\\yuxuxu\\Desktop\\cg\\ChromeGo\\Lightsocks\\Lightsocks-local.exe";
+  
 	private final static String accessKey = "C277DF0D97920BA6C4B3";
 	private final static String secretKey = 
 "W0Y5NkM1MDhBN0Y1NDE2N0NFNDNGMDNGOUYyQUVBRUQzNTkyOTU2RUZd";
