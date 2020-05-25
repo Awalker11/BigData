@@ -1,8 +1,7 @@
 package main;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -11,8 +10,8 @@ import java.nio.file.*;
 
 public class DirectoryChangeListener {
 
-    @Value("${folder.path}")
-    private String dir;
+   
+    private String dir = "D:\\Github";
 
     @Autowired
     private S3Operations s3Operations;
